@@ -1,0 +1,123 @@
+body
+{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.562) , rgba(255, 255, 0, 0.726));
+}
+.main
+{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.container
+{
+    margin:0 auto;
+    border: 10px solid black;
+    width: 350px;
+    border-radius: 20px;
+    background-color: black !important;
+    color: darkgray;
+    padding-bottom: 10px;
+}
+
+.line
+{
+    background-color: black !important;
+    color: darkgray;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.display
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 48%;
+    padding-top: 200px;
+    border: none;
+}
+
+.row
+{
+    background-color: black;
+}
+
+.btn
+{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color:  gray;
+    font-size: small;
+    width: 70px;
+    margin: 0;
+    padding: 20px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    text-align: center;
+}
+
+.opr
+{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    font-size: small;
+    width: 70px;
+    margin: 0;
+    padding: 20px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.lastbtn
+{
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white !important;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 28px;
+}
+
+
+.btn:focus
+{
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+
+.opr:focus
+{
+    text-decoration: none;
+    border: none;
+    color: palevioletred;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.lastbtn:focus
+{
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color: rgba(255, 71, 86, 0.705);
+    color: white;
+
+}

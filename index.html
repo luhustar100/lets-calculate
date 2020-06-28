@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+            <div class="container">
+                <input  id="result" class="display" type="text"  style=" padding-left: 150px;
+                padding-bottom: 10px; font-size: 25px; letter-spacing: 5px;
+                padding-right :40px ;">
+                <hr class="line">
+                <br>
+           <div class="row">
+               <button class="btn" style="color: white;" onclick="clearscreen()">C</button>
+               <button class="btn" style="color: white;" onclick="getnumber('( )')">()</button>
+               <button class="btn" style="color: white;" onclick="getnumber('%')">%</button>
+               <button class="opr" onclick="getnumber('/')">/</button>
+           </div>
+           <div class="row">
+            <button class="btn" onclick="getnumber('7')">7</button>
+            <button class="btn" onclick="getnumber('8')">8</button>
+            <button class="btn" onclick="getnumber('9')">9</button>
+            <button class="opr" onclick="getnumber('*')">x</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="getnumber('4')">4</button>
+            <button class="btn" onclick="getnumber('5')">5</button>
+            <button class="btn" onclick="getnumber('6')">6</button>
+            <button class="opr" onclick="getnumber('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="getnumber('1')">1</button>
+            <button class="btn" onclick="getnumber('2')">2</button>
+            <button class="btn" onclick="getnumber('3')">3</button>
+            <button class="opr" onclick="getnumber('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="getnumber('00')">00</button>
+            <button class="btn" onclick="getnumber('0')">0</button>
+            <button class="btn" onclick="getnumber('.')">.</button>
+            <button class="lastbtn" onclick="getoutput()">=</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
